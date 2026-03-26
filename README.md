@@ -1,2 +1,2 @@
-# dvp-protocol-code-
+# dvp-protocol-code
 Code for protocol on DVP
