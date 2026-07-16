@@ -24,15 +24,9 @@ jobs:
       matrix:
         include:
           - os: ubuntu-latest
-            python: "3.10"
-          - os: ubuntu-latest
             python: "3.13"
           - os: macos-latest
-            python: "3.10"
-          - os: macos-latest
             python: "3.13"
-          - os: windows-latest
-            python: "3.10"
           - os: windows-latest
             python: "3.13"
 
@@ -43,9 +37,9 @@ jobs:
       PYTHON: ${{ matrix.python }}
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Set up Python ${{ matrix.python }}
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: ${{ matrix.python }}
 
