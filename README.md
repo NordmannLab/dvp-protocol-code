@@ -1,5 +1,7 @@
 # dvp-protocol-code
 
+[![Build](https://github.com/MannLabs/dvp-protocol-code/actions/workflows/build.yaml/badge.svg)](https://github.com/MannLabs/dvp-protocol-code/actions/workflows/build.yaml)
+
 Code for protocol on Deep Visual Proteomics
 
 ## Setup
