@@ -9,7 +9,7 @@ Code for protocol on Deep Visual Proteomics
 Clone this repository
 
 ```shell
-git clone https://github.com/lucas-diedrich/dvp-protocol-code.git
+git clone https://github.com/MannLabs/dvp-protocol-code.git
 # go into the repository
 cd dvp-protocol-code
 ```
