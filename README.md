@@ -21,6 +21,16 @@ conda create -n dvp python=3.13 -y
 pip install -r requirements.txt
 ```
 
+Download the data
+
+> [!Important]
+> Careful! The utilized image is ~5GB large
+
+```bash
+cd data/
+bash download.sh
+```
+
 ## Structure
 
 ```shell
@@ -38,3 +48,6 @@ pip install -r requirements.txt
 ```
 
 ## References
+
+1. Mund, A. et al. Deep Visual Proteomics defines single-cell identity and heterogeneity. Nat Biotechnol 40, 1231–1240 (2022).
+2. Nordmann, T. M. et al. Spatial proteomics identifies JAKi as treatment for a lethal skin disease. Nature 1–9 (2024) doi:10.1038/s41586-024-08061-0.

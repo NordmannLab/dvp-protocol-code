@@ -14,3 +14,14 @@ Create a suitable python environment
 conda create -n dvp python=3.13 -y
 pip install -r requirements.txt
 ```
+
+Download the data
+
+:::{important}
+Careful! The utilized image is ~5GB large.
+:::
+
+```bash
+cd data/
+bash download.sh
+```
