@@ -1,0 +1,63 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  A Standardized Workflow for Deep Visual Proteomics in
+  Clinical and Discovery Research
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Yaoting
+    family-names: Sun
+    affiliation: >-
+      Department of Proteomics and Signal Transduction, Max
+      Planck Institute of Biochemistry, Martinsried, Germany
+  - given-names: Lucas
+    family-names: Diedrich
+    orcid: "https://orcid.org/0009-0007-4884-1422"
+    affiliation: >-
+      Department of Proteomics and Signal Transduction, Max
+      Planck Institute of Biochemistry, Martinsried, Germany
+  - given-names: Anton M.
+    family-names: Schuele
+    affiliation: >-
+      Department of Proteomics and Signal Transduction, Max
+      Planck Institute of Biochemistry, Martinsried, Germany
+  - given-names: Caroline A. M.
+    family-names: Weiss
+    affiliation: >-
+      Department of Proteomics and Signal Transduction, Max
+      Planck Institute of Biochemistry, Martinsried, Germany
+  - affiliation: >-
+      Department of Proteomics and Signal Transduction, Max
+      Planck Institute of Biochemistry, Martinsried, Germany
+    given-names: Katherine G.
+    family-names: Madden
+  - given-names: "Andreas "
+    family-names: Metousis
+    affiliation: >-
+      Department of Proteomics and Signal Transduction, Max
+      Planck Institute of Biochemistry, Martinsried, Germany
+  - given-names: Matthias
+    family-names: Mann
+    affiliation: >-
+      Department of Proteomics and Signal Transduction, Max
+      Planck Institute of Biochemistry, Martinsried, Germany
+    email: mmann@biochem.mpg.de
+  - given-names: Thierry M.
+    family-names: Nordmann
+    affiliation: >-
+      Department of Proteomics and Signal Transduction, Max
+      Planck Institute of Biochemistry, Martinsried, Germany
+    email: nordmann@biochem.mpg.de
+repository-code: "https://github.com/MannLabs/dvp-protocol-code.git"
+url: "https://mannlabs.github.io/dvp-protocol-code"
+abstract: Code for protocol on Deep Visual Proteomics
+keywords:
+  - DVP
+  - spatial-biology
+  - spatial-omics
+license: CC-BY-SA-4.0
