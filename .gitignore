@@ -213,3 +213,5 @@ __marimo__/
 *.tiff
 *.zarr
 *.xml
+*.png
+*.tsv
