@@ -6,7 +6,7 @@ wget -O 2025_02_19_wholeTissue_melanomaAb_01-Scene-2-ScanRegion1big_c1-3.tiff ht
 
 # TODO: Move data to versioned repository (figshare/zenodo)
 # 4.5 kb
-wget -O metadata_keratinocytes.tsv https://datashare.biochem.mpg.de/s/fQaEeCx2dL2D58r/download
+wget -O metadata_keratinocytes.tsv https://datashare.biochem.mpg.de/s/PHfifJTNXiFjwF2/download
 
 # TODO: Move data to versioned repository (figshare/zenodo)
 # 1.5 mb
