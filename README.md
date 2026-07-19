@@ -31,22 +31,6 @@ cd data/
 bash download.sh
 ```
 
-## Structure
-
-```shell
-├── README.md
-├── LICENSE
-├── requirements.txt
-├── data
-│   └── download.sh
-├── notebooks
-│   ├── image-analysis
-│   │   ├── harpy.ipynb
-│   │   └── src
-│   └── proteomics-analysis
-└── results
-```
-
 ## References
 
 1. Mund, A. et al. Deep Visual Proteomics defines single-cell identity and heterogeneity. Nat Biotechnol 40, 1231–1240 (2022).
