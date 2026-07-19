@@ -9,7 +9,7 @@ Code for the protocol on **Deep Visual Proteomics** (DVP).
 The analysis workflows are documented as executable notebooks:
 
 - [Image analysis](tutorials/image-analysis.ipynb): cell segmentation, feature extraction, quality control, and cell classification of DVP imaging data.
-- [Proteomics analysis](tutorials/proteomics-analysis.ipynb): pseudobulk reanalysis of the proteomics data.
+- [Proteomics analysis](tutorials/proteomics-analysis.ipynb): minibulk reanalysis of the proteomics data.
 
 ```{toctree}
 :hidden:

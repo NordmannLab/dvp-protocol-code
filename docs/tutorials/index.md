@@ -24,7 +24,7 @@ image-analysis
 
 ## Proteomics analysis
 
-The [proteomics-analysis tutorial](proteomics-analysis.ipynb) covers the pseudobulk reanalysis of the proteomics data.
+The [proteomics-analysis tutorial](proteomics-analysis.ipynb) covers the reanalysis of minibulk proteomics data.
 
 ```{toctree}
 :maxdepth: 1
