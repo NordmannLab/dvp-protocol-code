@@ -22,15 +22,13 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        include:
-          - os: ubuntu-latest
-            python: "3.13"
-          - os: macos-latest
-            python: "3.13"
-          - os: windows-latest
-            python: "3.13"
+        os: [ubuntu-latest, macos-latest, windows-latest]
+        python: ["3.13"]
+        requirements:
+          - requirements/requirements_image.txt
+          - requirements/requirements_proteomics.txt
 
-    name: ${{ matrix.os }} Python ${{ matrix.python }}
+    name: ${{ matrix.os }} Python ${{ matrix.python }} (${{ matrix.requirements }})
 
     env:
       OS: ${{ matrix.os }}
@@ -48,4 +46,4 @@ jobs:
           python -m pip install --upgrade pip wheel uv
 
       - name: Install dependencies
-        run: uv pip install --system -r requirements.txt
+        run: uv pip install --system -r ${{ matrix.requirements }}
