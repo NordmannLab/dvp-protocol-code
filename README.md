@@ -6,7 +6,7 @@ Code for protocol on Deep Visual Proteomics
 
 ## Setup
 
-Clone this repository
+1. Clone this repository
 
 ```shell
 git clone https://github.com/MannLabs/dvp-protocol-code.git
@@ -14,14 +14,19 @@ git clone https://github.com/MannLabs/dvp-protocol-code.git
 cd dvp-protocol-code
 ```
 
-Create a suitable python environment
+2. Create a suitable python environment
 
 ```shell
 conda create -n dvp python=3.13 -y
-pip install -r requirements.txt
+
+# For image analysis
+pip install -r requirements/requirements_image.txt
+
+# For proteomics data analysis
+pip install -r requirements/requirements_proteomics.txt
 ```
 
-Download the data
+3. Download the data
 
 > [!Important]
 > Careful! The utilized image is ~5GB large
