@@ -10,13 +10,19 @@ cd dvp-protocol-code
 
 2. Create a suitable python environment
 
+For image analysis
+
 ```shell
 conda create -n dvp python=3.13 -y
 
-# For image analysis
 pip install -r requirements/requirements_image.txt
+```
 
-# For proteomics data analysis
+For the proteomics data analysis section
+
+```shell
+conda create -n dvp python=3.13 -y
+
 pip install -r requirements/requirements_proteomics.txt
 ```
 
