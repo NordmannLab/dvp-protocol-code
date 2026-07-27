@@ -40,3 +40,9 @@ bash download.sh
 
 1. Mund, A. et al. Deep Visual Proteomics defines single-cell identity and heterogeneity. Nat Biotechnol 40, 1231–1240 (2022).
 2. Nordmann, T. M. et al. Spatial proteomics identifies JAKi as treatment for a lethal skin disease. Nature 1–9 (2024) doi:10.1038/s41586-024-08061-0.
+
+### Software
+
+> **harpy** Benjamin Rombaut, Arne Defauw, Frank Vernaillen, Julien Mortier, Evelien Van Hamme, Sofie Van Gassen, Ruth Seurinck, Yvan Saeys. Scalable analysis of whole slide spatial proteomics with Harpy. Bioinformatics (2026), btag122. https://doi.org/10.1093/bioinformatics/btag122
+
+> **spatialdata** Spatialdata: Marconato, L. et al. SpatialData: an open and universal data framework for spatial omics. Nat Methods 1–5 (2024) doi:10.1038/s41592-024-02212-x.
