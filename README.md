@@ -38,8 +38,9 @@ bash download.sh
 
 ## References
 
-1. Mund, A. et al. Deep Visual Proteomics defines single-cell identity and heterogeneity. Nat Biotechnol 40, 1231–1240 (2022).
-2. Nordmann, T. M. et al. Spatial proteomics identifies JAKi as treatment for a lethal skin disease. Nature 1–9 (2024) doi:10.1038/s41586-024-08061-0.
+> Mund, A. et al. Deep Visual Proteomics defines single-cell identity and heterogeneity. Nat Biotechnol 40, 1231–1240 (2022).
+
+> Nordmann, T. M. et al. Spatial proteomics identifies JAKi as treatment for a lethal skin disease. Nature 1–9 (2024) doi:10.1038/s41586-024-08061-0.
 
 ### Software
 
