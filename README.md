@@ -20,9 +20,11 @@ cd dvp-protocol-code
 conda create -n dvp python=3.13 -y
 
 # For image analysis
+# Should install within ~2 min on a consumer computer
 pip install -r requirements/requirements_image.txt
 
 # For proteomics data analysis
+# Should install within ~2 min on a consumer computer
 pip install -r requirements/requirements_proteomics.txt
 ```
 
